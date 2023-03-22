@@ -10,6 +10,6 @@ fi
 
 ln -s $HOME/.tmux/.tmux.conf $HOME/.tmux.conf
 
-cd ~/.tmux && git submodule init && git submodule update
-
-tmux source-file ~/.tmux.conf
+# install plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+bash ~/.tmux/plugins/tpm/bin/install_plugins
