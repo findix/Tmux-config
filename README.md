@@ -11,5 +11,5 @@ git clone --recursive https://github.com/findix/tmux-config.git ~/.tmux
 Install:
 
 ```bash
-bash ~/.tmux/instal.sh
+bash ~/.tmux/install.sh
 ```
